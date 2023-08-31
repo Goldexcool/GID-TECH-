@@ -30,7 +30,9 @@
     position: relative;
     /* transform: scale(1.25) translateY(-10%); */
 }
-
+.hr{
+    margin-top: 0;
+}
 .navbar {
     display: flex;
     width: 100%;
@@ -146,6 +148,7 @@ section {
     font-size: 20px;
     border-radius: 0.25rem;
     margin-top: 10px;
+    border: none;
 }
 
 .sectiontwo {
@@ -322,12 +325,6 @@ section {
     .navbar {
         padding: 0 2rem;
     }
-
-    h2 {
-        color: red;
-        font-size: 25px;
-    }
-
     .con__tent h1 {
         font-size: 25px;
         margin-bottom: 1rem;
@@ -589,8 +586,328 @@ section {
         justify-content: space-between;
         align-items: center;
         position: absolute;
-        margin-top: 2rem;
+        margi````n-top: 2rem;
         padding: 0 10rem;
         flex-wrap: wrap;
     }
 }
+/* israel start here */
+
+
+
+/* israel end here */
+body {
+    background-color: black;
+    color: white;
+  }
+  hr {
+    background-color: rgba(255, 252, 252, 0.219);
+    padding: 0.3rem;
+    margin-top: 5%;
+    border: none;
+  }
+  .d-wrapper {
+    flex-wrap: wrap;
+  }
+  .d-container h1 {
+    text-align: center;
+  }
+  .d-container h3 {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .d-container {
+    padding: 5% 0%;
+    flex-wrap: wrap;
+  }
+  .d-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .2rem;
+  }
+  .boxx{
+    margin-top: 2%;
+  }
+  .d-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 252, 252, 0.219);
+    padding: 1rem;
+    width: 75%;
+    align-items: center;
+    position: relative;
+  }
+  .d-box:hover {
+    background-color: rgba(255, 252, 252, 0.308);
+    transition: 0.5s;
+  }
+  .text {
+    width: 97%;
+  }
+  .text p {
+    margin-top: 3%;
+  }
+  .dropdownMenu {
+    overflow: hidden;
+    max-height: 0;
+    visibility: collapse;
+    max-height: 0;
+    width: 75%;
+    padding: 0 1.5rem;
+    -webkit-transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    margin-top: 0.2%;
+  }
+  .dropdownMenu h3 {
+    padding: 0%;
+    text-align: left;
+  }
+  .faq.open .dropdownMenu{
+    overflow: hidden;
+    visibility: visible;
+    max-height: 0px;
+    padding: 0px 1.5rem;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    max-height: 75rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .email {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2%;
+    flex-wrap: wrap;
+  }
+  input:focus::placeholder {
+    position: absolute;
+    margin-top: -4%;
+    font-size: 14px;
+    transition: 0.2s;
+    transition-delay: 10ms;
+    visibility: visible;
+  }
+  input:focus-within {
+    transition: 0.3s;
+  }
+  .d-emwrap {
+    align-items: center;
+    flex-direction: column;
+  }
+  .email input {
+    background-color: transparent;
+    background-color: rgba(255, 252, 252, 0.048);
+    border: none;
+    padding: 1rem 1rem;
+    width: 27%;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    border: 0.1px solid rgba(255, 255, 255, 0.459);
+  }
+  .email input:focus {
+    border: 1px solid white;
+  }
+  .email button {
+    padding: 0.8rem 1.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .email button:hover {
+    background-color: rgba(255, 0, 0, 0.705);
+  }
+  .email .icons {
+    font-size: 20px;
+  }
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .d-links {
+    display: flex;
+    padding: 0% 1% 15% 10%;
+  }
+  .question {
+    margin-left: 10%;
+    line-height: 80px;
+  }
+  .first-link {
+    flex-direction: column;
+    display: flex;
+    row-gap: 12px;
+    line-height: 1.3125rem;
+  }
+  .but {
+    margin-top: -13%;
+    margin-left: 10%;
+  }
+  .but button {
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .but button .iconss {
+    margin-left: 7px;
+  }
+  .but button .iconsss {
+    margin-right: 7px;
+  }
+  .but h5 {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 2%;
+  }
+  .second-link {
+    flex-direction: column;
+    display: flex;
+    row-gap: 12px;
+    margin-left: 20%;
+    line-height: 1.3125rem;
+  }
+  .third-link {
+    flex-direction: column;
+    display: flex;
+    row-gap: 12px;
+    margin-left: 20%;
+    line-height: 1.3125rem;
+  }
+  @media screen and (max-width: 425px) {
+    .d-emwrap {
+      padding: 10% 10% 10% 10%;
+    }
+    .email input {
+      width: 90%;
+      margin-top: 5%;
+    }
+    .email button{
+      margin-top: 5%;
+    }
+    .dropdownMenu.open {
+      padding: 6%;
+      width: 90%;
+    }
+    .dropdownMenu {
+      width: 85%;
+    }
+    .boxx{
+      margin-top: 7%;
+    }
+    .d-box {
+      width: 85%;
+      padding: 1.5rem;
+    }
+    .d-links {
+      flex-direction: column;
+      padding: 0% 1% 50% 9%;
+    }
+    .second-link {
+      margin-left: 1px;
+      margin-top: 30px;
+    }
+    .third-link {
+      margin-left: 1px;
+      margin-top: 30px;
+    }
+    .but {
+      margin-top: -40%;
+      margin-left: 10%;
+    }
+    .but h5 {
+      margin-top: 10%;
+    }
+    .question {
+      margin-left: 9%;
+    }
+    .icon {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 1024px) and (min-width: 425px) {
+    .d-box {
+      width: 90%;
+    }
+    .icon {
+      font-size: 15px;
+    }
+    .dropdownMenu.open {
+      width: 90%;
+    }
+    .dropdownMenu {
+      width: 90%;
+    }
+    .email input {
+      width: 15%;
+    }
+    .d-emwrap {
+      padding: 4% 5% 5% 5%;
+    }
+    .second-link {
+      margin-left: 25px;
+      width: 250px;
+    }
+    .first-link {
+      margin-left: -5%;
+      width: 250px;
+    }
+    .third-link {
+      margin-left: 14%;
+      width: 250px;
+    }
+    .question {
+      margin-left: 5%;
+      line-height: 40px;
+    }
+    .but {
+      margin-top: -13%;
+      margin-left: 5%;
+    }
+    .email input {
+      width: 50%;
+    }
+  }
+  @media (width: 425px) {
+    .second-link {
+      margin-left: -18px;
+      margin-top: 30px;
+    }
+    .third-link {
+      margin-left: 40%;
+      margin-top: -40%;
+    }
+    .but {
+      margin-top: -40%;
+      margin-left: 5%;
+    }
+    .but h5 {
+      margin-top: 10%;
+    }
+    .question {
+      margin-left: 5%;
+    }
+    .email input {
+      width: 90%;
+    }
+    .d-box{
+      width:90%;
+    }
+  }
+  
