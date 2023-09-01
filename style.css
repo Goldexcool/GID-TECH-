@@ -319,11 +319,11 @@ section {
 
 @media (min-width:320px) {
     .header {
-        padding: 0 1rem;
+        padding: 0 5rem;
     }
 
     .navbar {
-        padding: 0 2rem;
+        padding: 0 5rem;
     }
     .con__tent h1 {
         font-size: 25px;
@@ -428,6 +428,9 @@ section {
         /* text-align: center; */
 
     }
+    .navbar {
+      padding: 0 5rem;
+  }
 
     .sectiontwo {
         width: 100%;
@@ -453,6 +456,7 @@ section {
         margin-bottom: .7rem;
 
     }
+
 
     .first_conn h3 {
         font-size: 18px;
@@ -495,7 +499,7 @@ section {
 
     }
     .navbar {
-        padding: 0 4rem;
+        padding: 0 5rem;
         margin-top: 2rem;
     }
 
@@ -586,8 +590,8 @@ section {
         justify-content: space-between;
         align-items: center;
         position: absolute;
-        margi````n-top: 2rem;
-        padding: 0 10rem;
+        margin-top: 2rem;
+        padding: 0 8rem;
         flex-wrap: wrap;
     }
 }
