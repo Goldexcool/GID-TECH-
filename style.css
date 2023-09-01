@@ -380,7 +380,7 @@ section {
     .first_conn h1 {
         font-size: 26.5px;
         text-align: center;
-        margin-bottom: .7rem;
+        margin-top: 20%;
     }
     .navbar {
         padding: 2rem;
@@ -467,7 +467,787 @@ section {
 }
 /* israel start here */
 
+.israel_wrapper {
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  box-sizing: border-box;
 
+}
+
+.my_imgg {
+  width: 100%;
+}
+
+.imgg2 {
+  width: 100%;
+}
+
+.imgg3 {
+  width: 170%;
+}
+
+.the_div {
+  position: relative;
+}
+
+.israel_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.downloading {
+  color: blue;
+}
+
+hr {
+  background: rgb(177, 0, 0);
+  height: 2px;
+}
+
+.israel_wrap2 {
+  display: flex;
+  column-gap: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+
+.israel_wrap3 {
+  display: flex;
+  column-gap: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.israel_content3 h2 {
+  margin-bottom: 20px;
+}
+
+.israel_image {
+  text-align: center;
+}
+
+.israel_image2 {
+  position: relative;
+
+}
+
+/* .israelBoxShot img {
+  height: 5rem;
+} */
+
+.strangethings {
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  bottom: 5.3%;
+  justify-content: space-between;
+  padding: 8px 14px;
+  width: 60%;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  border-radius: 0.75rem;
+  z-index: 1;
+  left: 49%;
+  margin-top: -17%;
+}
+
+.st_downloads {
+  text-align: left;
+  /* margin: 0.3rem 0; */
+}
+
+.israel_content {
+  text-align: center;
+}
+
+.Download_btn {
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: -2px;
+  display: block;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  content: '';
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background: url("./download-icon.gif") center center no-repeat;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+  }
+
+  .the_div {
+      position: relative;
+  }
+
+  .my_imgg {
+      width: 100%;
+      height: 300px;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      padding: 8px 14px;
+      width: 100%;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      left: 49%;
+      margin-top: -17%;
+  }
+
+  /* 
+  .israelBoxShot img {
+      height: 4rem;
+  } */
+
+  .downloading {
+      font-size: 0.775rem;
+  }
+
+  .st {
+      font-size: 1rem;
+      /* margin-left: -20px; */
+  }
+
+  /* .Download_btn {
+      width: 3rem;
+      height: 3rem;
+  }  */
+}
+
+
+
+@media (min-width:320px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+  .the_div {
+      position: relative;
+  }
+
+  .st_downloads {
+      /* margin-left: -70px; */
+      /* text-align: left;
+     margin: 0.3rem 0; */
+      margin-left: -35px;
+
+  }
+
+  .my_imgg {
+      width: 250px;
+      height: 240px;
+  }
+
+  .israelBoxShot img {
+      height: 4.5rem;
+  }
+
+  .Download_btn {
+      width: 3.5rem;
+      height: 4.5rem;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      /* padding: 2px 10px; */
+      padding: 0;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      /* border-radius: 0.75rem; */
+      z-index: 1;
+      /* left: 45%; */
+      margin-top: -17%;
+  }
+
+  .st_downloads h5 {}
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -55px; */
+  }
+
+  .israel_content h1 {
+      font-size: 32px;
+  }
+
+  .israel_content h2 {
+      font-size: 1.125rem;
+      font-weight: 400;
+
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 40px;
+      font-weight: 700;
+  }
+
+  .israel_content2 h2 {
+      font-size: 18px;
+      margin-bottom: 2rem;
+
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column-reverse;
+  }
+
+  .israel_content3 h1 {
+      font-size: 35px;
+      font-weight: 700;
+      text-align: center;
+  }
+
+  .israel_content3 h2 {
+      font-size: 19px;
+      font-weight: 200px;
+      text-align: center;
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:375px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+  .the_div {
+      position: relative;
+  }
+
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      /* padding: 0.9px  2.5px; */
+      padding: 0;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      /* left: 45%; */
+      /* margin-top: 50%; */
+  }
+
+  .st_downloads {
+      margin-left: -50px;
+
+  }
+
+  .my_imgg {
+      width: 260px;
+      height: 210px;
+  }
+
+  .israelBoxShot img {
+      height: 4rem;
+  }
+
+  .Download_btn {
+      width: 3.5rem;
+      height: 4.5rem;
+  }
+
+  .st_downloads h5 {}
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -55px; */
+  }
+
+  .israel_content h1 {
+      font-size: 32px;
+      font-weight: 700;
+  }
+
+  .israel_content h2 {
+      font-size: 19px;
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 32px;
+      font-weight: 700;
+  }
+
+  .israel_content2 h2 {
+      font-size: 17px;
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column-reverse;
+  }
+
+  .israel_content3 h1 {
+      font-size: 32px;
+      font-weight: 700;
+  }
+
+  .israel_content3 h2 {
+      font-size: 17px;
+      font-weight: 400px;
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:425px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+
+  .the_div {
+      position: relative;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      padding: 0.9px 2px;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      /* left: 50%; */
+      /* margin-top: -17%; */
+  }
+
+  .my_imgg {
+      width: 300px;
+      height: 220px;
+  }
+
+  .israelBoxShot img {
+      /* height: 4.7rem; */
+  }
+
+  .Download_btn {
+      /* width: 1.5rem;
+     height: 1.5rem; */
+  }
+
+
+  .st_downloads h5 {}
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -85px; */
+  }
+
+  .israel_content h1 {
+      font-size: 35px;
+      font-weight: 700;
+  }
+
+  .israel_content h2 {
+      font-size: 20px;
+      margin-bottom: 20px
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .israel_content2 h2 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column-reverse;
+  }
+
+  .st_downloads {
+      margin-left: -90px;
+
+  }
+
+  .israel_content3 h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .israel_content3 h2 {
+      font-size: 17px;
+      font-weight: 400px;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+
+  .st_downloads {
+      /* margin-left: -10px; */
+      margin-left: -95px;
+
+  }
+
+  .israel_content3 h2 {
+      font-size: 20px;
+
+  }
+
+  .st_downloads h5 {
+      /* margin-left: -85px; */
+  }
+
+  .strangethings {
+      padding: 0;
+  }
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+  }
+
+  .israel_content3 h1 {
+      font-size: 60px;
+  }
+
+  .israel_content2 h1 {
+      font-size: 50px;
+  }
+
+  .israel_content2 h2 {
+      font-size: 20px;
+  }
+
+  .israel_content h1 {
+      font-size: 36px;
+  }
+
+  .israel_content h2 {
+      font-size: 20px;
+  }
+
+  .israel_image {
+      width: 100%;
+  }
+
+  .israel_image2 {
+      width: 100%;
+
+  }
+
+  .israel_image3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+
+  .israel_wrap {
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: row;
+  }
+
+
+  .the_div {
+      position: relative;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      padding: 4px -10px;
+      width: 70%;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      /* width: 170%; */
+      /* left: 50%; */
+      /* margin-top: -17%; */
+  }
+
+  .st_downloads {
+      margin-left: -70px;
+
+  }
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -25px; */
+  }
+
+  .israel_content {
+      width: 60%;
+      text-align: left;
+  }
+
+  .israel_content2 {
+      width: 120%;
+      text-align: left;
+  }
+
+  .israel_content {
+      width: 160%;
+      text-align: left;
+  }
+
+  .israel_content h1 {
+      font-size: 48px;
+  }
+
+  .israel_content h2 {
+      font-size: 24px;
+      margin-bottom: 20px
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: row;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 48px;
+      text-align: left;
+      font-weight: 600;
+  }
+
+  .israel_content2 h2 {
+      font-size: 24px;
+      text-align: left;
+      margin-bottom: 2rem;
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_image {
+      width: 400px;
+      height: 300px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: row;
+  }
+
+  .st_downloads {
+      /* margin-left: -50px; */
+  }
+
+  .israel_content3 h1 {
+      font-size: 48px;
+      text-align: left;
+  }
+
+  .israel_content3 h2 {
+      font-size: 24px;
+      font-weight: 400px;
+      text-align: left;
+      margin-bottom: 2rem;
+  }
+
+  .my_imgg {
+      width: 100%;
+      /* height: 300px;  */
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+
+  .israel_image2 .imgg2 {
+      width: 70%;
+  }
+}
 
 /* israel end here */
 body {
